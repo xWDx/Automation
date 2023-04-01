@@ -43,7 +43,7 @@ public class FormularioContacto extends Base {
 	
 		}
 		
-		driver.close();
+		//driver.close();
 		
 	}
 
