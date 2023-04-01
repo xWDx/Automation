@@ -1,0 +1,13 @@
+package reader;
+
+import java.util.ArrayList;
+
+public class CVSFileReader {
+	
+	public void getData() {
+		ArrayList<String> dataRead = new ArrayList<String>();
+		File archivo = new File("C:\\Users\\OFFICE DEPOT\\eclipse-workspace\\DDTesting-CVSReader\\src");
+		
+	}
+
+}

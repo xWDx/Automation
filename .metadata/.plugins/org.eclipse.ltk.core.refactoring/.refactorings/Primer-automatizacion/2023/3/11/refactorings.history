@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.tipsautomatizacion.componentes.ListaAutomatizada&apos; to &apos;ListaAleatoria&apos;&#x0D;&#x0A;- Original project: &apos;Primer-automatizacion&apos;&#x0D;&#x0A;- Original element: &apos;com.tipsautomatizacion.componentes.ListaAutomatizada&apos;&#x0D;&#x0A;- Renamed element: &apos;com.tipsautomatizacion.componentes.ListaAleatoria&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ListaAutomatizada&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.tipsautomatizacion.componentes{ListaAutomatizada.java[ListaAutomatizada" matchStrategy="1" name="ListaAleatoria" qualified="false" references="true" similarDeclarations="false" stamp="1678772710077" textual="false" version="1.0"/>
+</session>

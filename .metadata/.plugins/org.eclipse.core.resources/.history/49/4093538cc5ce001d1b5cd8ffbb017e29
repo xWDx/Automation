@@ -1,0 +1,13 @@
+package bases;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import reader.CVSFileReader;
+
+public class Base {
+	
+	 CVSFileReader datosLeidos = new CVSFileReader();
+	 WebDriver driver = new ChromeDriver();
+
+}

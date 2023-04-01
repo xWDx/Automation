@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite de Pruebas">
+	<parameter name="Nombre" value="Jonathan" />
+  <test thread-count="5" name="Casos de Prueba">
+    <classes>
+      <class name="com.anotaciones.testNG.Anotaciones"/>
+      <class name="com.anotaciones.testNG.SegundoSet">
+		  <methods>
+			  <include name="prueba2"/>
+			  <exclude name="prueba1"/>
+			  <!-- otra manera de excluir <exclude name="clic.*"/> --> 
+		  </methods>
+		  </class>
+    </classes>
+  </test> <!-- Casos de Prueba -->
+</suite> <!-- Suite de Pruebas -->

@@ -1,0 +1,12 @@
+package testcases;
+
+import bases.Base;
+
+public class FormularioContacto extends Base {
+	
+	@BeforeTest
+	public void openBrowser() {}
+
+	
+
+}

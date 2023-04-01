@@ -1,0 +1,16 @@
+package bases;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import reader.CVSFileReader;
+
+public class Base {
+	
+	 CVSFileReader datosLeidos = new CVSFileReader();
+	 WebDriver driver = new ChromeDriver();
+	 ContactFormRepository contacto = new ContactFormRepository();
+
+	 
+}

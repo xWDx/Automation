@@ -1,0 +1,14 @@
+package bases;
+
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import reader.CVSFileReader;
+
+public class Base {
+	
+	 CVSFileReader datosLeidos = new CVSFileReader();
+	 ChromeOptions options = new ChromeOptions();
+		options.addArguments("--remote-allow-origins=*");
+	 WebDriver driver = new ChromeDriver(actions);
+
+}

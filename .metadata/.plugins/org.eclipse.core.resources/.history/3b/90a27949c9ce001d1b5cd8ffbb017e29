@@ -1,0 +1,38 @@
+package testcases;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import bases.Base;
+import repositorio.contactFormRepository;
+
+public class FormularioContacto extends Base {
+	
+	@BeforeTest
+	public void openBrowser() {
+		
+		
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--remote-allow-origins=*");
+		 WebDriver driver = new ChromeDriver(actions);
+		 contactFormRepository contacto = new contactFormRepository(driver);
+		driver.get("https://winstoncastillo.com/robot-selenium/index.php?route=information/contact");
+		
+	}
+	
+	@AfterTest
+	public void cerarBrowser(){
+		driver.close();
+	}
+	
+	@Test
+	public void aplicarDataForm() {
+		System.out.println(driver.getTitle());
+		
+	}
+
+}

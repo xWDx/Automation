@@ -1,0 +1,14 @@
+package repositorio;
+
+import org.openqa.selenium.WebDriver;
+
+public class contactFormRepository {
+
+	WebDriver driver;
+
+	public contactFormRepository(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+
+}

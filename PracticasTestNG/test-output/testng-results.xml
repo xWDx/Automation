@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-20T22:48:54 MST" name="Default suite" finished-at="2023-03-20T22:48:55 MST" duration-ms="190">
+    <groups>
+    </groups>
+    <test started-at="2023-03-20T22:48:54 MST" name="Default test" finished-at="2023-03-20T22:48:55 MST" duration-ms="190">
+      <class name="com.anotaciones.testNG.SegundoSet">
+        <test-method signature="prueba4()[pri:0, instance:com.anotaciones.testNG.SegundoSet@152aa092]" started-at="2023-03-20T22:48:55 MST" name="prueba4" finished-at="2023-03-20T22:48:55 MST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prueba4 -->
+        <test-method signature="prueba3()[pri:0, instance:com.anotaciones.testNG.SegundoSet@152aa092]" started-at="2023-03-20T22:48:55 MST" name="prueba3" finished-at="2023-03-20T22:48:55 MST" depends-on-methods="com.anotaciones.testNG.SegundoSet.prueba4" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prueba3 -->
+      </class> <!-- com.anotaciones.testNG.SegundoSet -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,7 @@
+package bases;
+
+public class Base {
+	
+	 CVSFileReader datosLeidos = new CVSFileReader();
+
+}
